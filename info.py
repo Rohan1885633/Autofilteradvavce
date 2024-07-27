@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/The_Movies_Officially/592'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', '77764053feb4eff47e1005c8b8c29da0800cd096'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'ziplinker.net'))
+STREAM_API = (environ.get('STREAM_API', 'cc40becc32e5b8f5c78bae3bf9db34bbf8336740'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/The_Movies_Officially/592'))
 
 # Admins, Channels & Users
@@ -56,9 +56,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '77764053feb4eff47e1005c8b8c29da0800cd096')
+VERIFY = bool(environ.get('VERIFY', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'cc40becc32e5b8f5c78bae3bf9db34bbf8336740')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
