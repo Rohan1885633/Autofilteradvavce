@@ -26,12 +26,12 @@ NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/0a3dd8abd3f74b7f7f365.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/1198'))
+CODE = (environ.get('CODE', 'https://t.me/The_Movies_Officially/592'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', '4623cd7019ade92446a852c0a5c453cd3e88053e'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/1195'))
+STREAM_API = (environ.get('STREAM_API', '77764053feb4eff47e1005c8b8c29da0800cd096'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/The_Movies_Officially/592'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6832374783').split()]
@@ -51,7 +51,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rohankumarjena90:tmLnt0G4JmvGgi2J@cluster0.ihscnfk.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Iron:khan7860@cluster0.3cvc7jl.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://rohankumarjena90:tmLnt0G4JmvGgi2J@cluster0.ihscnfk.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
